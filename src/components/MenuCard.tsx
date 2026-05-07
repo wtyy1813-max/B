@@ -17,8 +17,8 @@ export function MenuCard({ item, lang, onClick }: MenuCardProps) {
       onClick={onClick}
     >
       <img
-        className="w-full object-cover block"
-        style={{ height: 160, objectPosition: 'center 25%' }}
+        className="w-full block"
+        style={{ height: 'auto' }}
         src={`images/${item.image}`}
         alt={item.names[lang]}
         loading="lazy"

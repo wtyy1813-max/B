@@ -47,12 +47,12 @@ export function ItemDetailModal({ item, lang, onClose }: ItemDetailModalProps) {
         {item && (
           <>
             {/* Image */}
-            <div className="relative w-full overflow-hidden" style={{ height: 220 }}>
+            <div className="relative w-full">
               <img
                 src={`images/${item.image}`}
                 alt={item.names[lang]}
-                className="w-full h-full object-cover"
-                style={{ objectPosition: 'center 25%' }}
+                className="w-full block"
+                style={{ height: 'auto' }}
                 loading="lazy"
               />
               <button
