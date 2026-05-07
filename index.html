@@ -9,6 +9,21 @@
   </head>
   <body>
     <div id="root"><div id="js-loading" style="padding:2rem;font-family:sans-serif;color:#333">Loading…</div></div>
+    <script>
+      window.__appError = null;
+      window.addEventListener('error', function(e) {
+        window.__appError = e.message + ' (' + e.filename + ':' + e.lineno + ')';
+        document.getElementById('js-loading').textContent = 'JS Error: ' + window.__appError;
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        window.__appError = String(e.reason);
+        document.getElementById('js-loading').textContent = 'Promise Error: ' + window.__appError;
+      });
+      setTimeout(function() {
+        var el = document.getElementById('js-loading');
+        if (el) el.textContent = 'Script timeout – JS did not run. Check console.';
+      }, 8000);
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
