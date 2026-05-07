@@ -88,15 +88,4 @@ export const menuRaw = [
     emoji: '✨',
     note: '課程期限3個月。報名10堂以上期課學員，可參與新浪島嶼所有課程，需提前預約。',
   },
-  {
-    category: 'bmc',
-    name: '啟動身心自我療癒',
-    instructor: 'Candy',
-    options: ['單堂體驗 700', '4堂期課 650/堂，共2600', '10堂期課 550/堂，共5500'],
-    schedule: '每週一 14:00–15:30',
-    location: '台東市開封街370號2樓之1',
-    image: 'course-bmc.png',
-    emoji: '✨',
-    note: '課程期限3個月。報名10堂以上期課學員，可參與新浪島嶼所有課程，需提前預約。',
-  },
 ]

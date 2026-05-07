@@ -375,48 +375,6 @@ export const menuItems: MenuItem[] = [
       ko: '유효기간 3개월. 10회 이상 등록 시 모든 수업 참여 가능 (사전 예약 필요).',
     },
   },
-  {
-    id: 'bmc-002',
-    category: 'bmc',
-    names: {
-      zh: '啟動身心自我療癒',
-      en: 'Activate Body-Mind Self-Healing',
-      ja: '心身セルフヒーリングの起動',
-      ko: '몸과 마음 자기 치유 활성화',
-    },
-    instructor: 'Candy',
-    price: [
-      { label: { zh: '單堂體驗', en: 'Single Trial', ja: '単発体験', ko: '단일 체험' }, value: 700 },
-      { label: { zh: '4堂期課（共$2600）', en: '4-Class ($2600)', ja: '4回コース（$2600）', ko: '4회 ($2600)' }, value: 650 },
-      { label: { zh: '10堂期課（共$5500）', en: '10-Class ($5500)', ja: '10回コース（$5500）', ko: '10회 ($5500)' }, value: 550 },
-    ],
-    schedule: {
-      zh: '每週一 14:00–15:30',
-      en: 'Every Monday 14:00–15:30',
-      ja: '毎週月曜日 14:00–15:30',
-      ko: '매주 월요일 14:00–15:30',
-    },
-    location: {
-      zh: '台東市開封街370號2樓之1',
-      en: '2F-1, No.370, Kaifeng St., Taitung City',
-      ja: '台東市開封街370号2階の1',
-      ko: '타이퉁시 카이펑가 370호 2층-1',
-    },
-    image: 'course-bmc.png',
-    emoji: '✨',
-    desc: {
-      zh: '以「身心平衡技法 Body Mind Centering」為主題的身體動作課程。適合正經歷身心修復階段者、無任何舞蹈運動經驗者，毋需高難度技巧，有舞蹈經驗人士、專業舞者歡迎。',
-      en: 'A movement class based on Body Mind Centering. Suitable for those in physical/mental recovery, beginners with no dance experience, and experienced dancers or movement professionals.',
-      ja: 'ボディマインドセンタリングをテーマにしたムーブメントクラス。心身回復中の方から専門ダンサーまで歓迎。',
-      ko: '바디 마인드 센터링을 주제로 한 움직임 수업. 심신 회복 중인 분부터 전문 댄서까지 모두 환영합니다.',
-    },
-    note: {
-      zh: '課程期限3個月。報名10堂以上期課學員，可參與新浪島嶼所有課程，需提前預約。',
-      en: 'Course valid for 3 months. Students enrolled in 10+ classes may attend all New Wave Island courses with advance booking.',
-      ja: '有効期限3ヶ月。10回以上受講の方は全コース参加可（要事前予約）。',
-      ko: '유효기간 3개월. 10회 이상 등록 시 모든 수업 참여 가능 (사전 예약 필요).',
-    },
-  },
 ]
 
 export const categories: Category[] = [
